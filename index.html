@@ -1,149 +1,126 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Raman Developer Portfolio</title>
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&display=swap" rel="stylesheet">
-    <style>
-        *{
-            margin: 0;
-            padding: 1px;
-        }
-            body {
-                background-color: rgb(0, 0, 12);
-                color: white;
-                font-family: "Poppins", sans-serif;
-            }
-           nav{
-            display: flex;
-            justify-content:space-around;
-            align-items: center;
-            height: 8%;
-            background-color: blue;
-           }
-           nav ul{
-            display: flex ;
-            justify-content: center;
-           }
-           nav ul li {
-            list-style: none;
-            
-            margin: 18px;
-            
-           }
-           nav ul li a{
-            text-decoration: none;
-            margin: 7px;
-            color: white;
-           }
-           nav ul li a :hover {
-             color: rgb(58, 58, 63);
-             font-size: 1.5rem;
-           }
-           .left{
-            font-size: 1.5rem;
-           }
-           .firstSection{
-            display: flex;
-            justify-content: space-around;
-            margin: 30px;
-           }
-           .leftSection{
-            background-color:none;
-            width:50%;
-            height: 400px;
-            font-size: 3rem;
-           
-           }
-           .rightSection img{
-            background-color:none;
-            width: 700px;
-            height:600px;
-        }
-        .purple{
-            color: blueviolet;
-        }
-        #element{
-            color: blueviolet;
-        }
-        .Secondsection{
-            max-width: 80vw;
-            margin: auto;
-        }
-        main hr{
-            border: 0;
-            background-color:gray;
-            height: 0.8px;
-            margin: 240px 0px;
-        }
-        .Secondsection .box{
-            background: white;
-            width: 80vw;
-            height: 2px;
-            margin: 56px;
-
-        }
-        .Secondsection .vertical{
-            height: 93px;
-            width: 1px;
-            background-color: white;
-            margin: 0px 100px;
-        }
-
-    </style>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Raman Developer Portfolio</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css"
+    integrity="sha512-q6z5UTz5y2l4snfhTA3FvU6DMPY5/LR0oaa/SjlZEyFTnIa29I1/07U3b7Xv2FlkK8q8DkEYf9Sd9UJRF8pPGg=="
+    crossorigin="anonymous" referrerpolicy="no-referrer" />
+  <link rel="stylesheet" href="./style/style.css">
 </head>
+
 <body>
-    <head>
-       <nav>
-        <div class="left">Raman's portfolio</div>
-        <div class="right"> </div>
-        <ul>
-            <li><a href="">Home</a></li>
-            <li><a href="">About</a></li>
-            <li><a href="">Services</a></li>
-            <li><a href="">Projects</a></li>
-            <li><a href="">Contact me</a></li>
-        </ul>
-       </nav>
-    </head>
-    <main>
-        <section class="firstSection">
-           <div class="leftSection">
-            Hi, my name is <span class="purple">Raman Kumar</span>
-            <div>and i am a passionate</div>
-            <span id="element"></span>
+  <nav>
+    <div class="logo"><h1>R</h1></div>
+    <ul>
+      <li><a href="#home">Home</a></li>
+      <li><a href="#about">About</a></li>
+      <li><a href="#services">Services</a></li>
+      <li><a href="#projects">Projects</a></li>
+      <li><a href="#contact">Contact Me</a></li>
+    </ul>
+  </nav>
+  <main>
+    <section class="firstSection" id="home">
+      <div class="container">
+        <div class="leftSection">
+          <div>
+            Heyy there!
+            <div class="name">
+              <span>
+                <h1 class="purple"> Raman</h1>
+              </span>
+              <span>
+                &nbsp; this side.
+              </span>
+            </div>
+          </div>
+          <div class="passion">I'm a passionate <span id="element"></span></div>
         </div>
+        <div class="rightSection">
+          <img src="assets/img/front image.png.png" alt="Profile Picture" />
+        </div>
+      </div>
+    </section>
+    <section class="Secondsection" id="about">
+      <h1>Education</h1>
+      <div class="box1">
+        <div class="vertical">
+          <div class="collegeImg">
+            <img class="firstimage" src="assets/img/primaryschool.png" alt="Primary School" />
+          </div>
+          <div>
+            <div class="vertical-title">Primary Schooling (2019-2021)</div>
+            <div class="vertical-desc">
+              I completed my primary school education at Maharishi Arvind Public School in Kota, Rajasthan, during the
+              years 2019 to 2021.
+            </div>
+          </div>
+        </div>
+        <div class="vertical">
+          <div class="collegeImg">
+            <img class="firstimage" src="assets/img/primaryschool.png" alt="High School" />
+          </div>
+          <div>
+            <div class="vertical-title">High Schooling (2021-2023)</div>
+            <div class="vertical-desc">
+              I completed my high-school education at Maharishi Arvind Public School in Kota, Rajasthan, during the
+              years
+              2021 to 2023.
+            </div>
+          </div>
 
-           <div class="rightSection"><img src="bg.png.png" alt="">
+        </div>
+        <div class="vertical">
+          <div class="collegeImg">
+            <img class="secondimage" src="assets/img/resonacekota.png" alt="Resonance Kota" />
+          </div>
+          <div>
+            <div class="vertical-title">Higher Education (2021-2023)</div>
+            <div class="vertical-desc">
+              I embarked on my JEE journey with Resonance in Kota, Rajasthan, from 2021 to 2023, and it has been a
+              transformative experience.
+            </div>
+          </div>
 
-           </div>
+        </div>
+        <div class="vertical">
+          <div class="collegeImg">
+            <img class="thirdimage" src="assets/img/uietchandigarh.png" alt="UIET Chandigarh" />
+          </div>
+          <div>
+            <div class="vertical-title">Under Graduation (2023-2027)</div>
+            <div class="vertical-desc">
+              I am currently pursuing a Bachelor of Engineering at UIET, Panjab University, Chandigarh, from 2023 to
+              2027.
+            </div>
+          </div>
 
-        </section>
-        <section class="Secondsection">
-            <hr>
-            <h1>Education</h1>
-            <div class="box"
-            style="background:white;
-            width : 80vw;
-            height:1px;
-            margin:0px 0px;"
-             ></div>
-            <div class="vertical"></div>
-            <div class="vertical"></div>
-            <div class="vertical"></div>
-            <div class="vertical"></div>
+        </div>
+      </div>
+    </section>
+    <section class="contactSection" id="contact">
+      <h1>Contact Me</h1>
+      <div class="contactDetails">
 
-        </section>
-    </main>
-    <script src="https://unpkg.com/typed.js@2.1.0/dist/typed.umd.js"></script>
-    <script>
-        var typed = new Typed('#element', {
-          strings: [' Student.',  '  Software Developer.',  '  Gamer.'],
-          typeSpeed: 50,
-        });
-      </script>
+        <div class="social">
+          <div class="box"> <a href="mailto:ramankr7321@gmail.com"><img src="assets/img/gmail.png " alt=""></a></div>
+          <div class="box"> <a href="https://www.linkedin.com/in/raman-kumar-b80913282/" target="_blank"><img src="assets/img/linkedin.png" alt=""></a></div>
+          <div class="box"> <a href="https://github.com/RamanKumar00" target="_blank"><img src="assets/img/github-character.png" alt=""></a></div>
+          <div class="box"> <a href="https://www.instagram.com/__ramankumar__/" target="_blank"><img src="assets/img/instagram.png"alt=""></a></div>
+          <div class="box"> <a href="https://www.facebook.com/profile.php?id=61550738157956" target="_blank"><img src="assets/img/facebook.png" alt=""></a></div>
+          <div class="box"> <a href="https://twitter.com/Sky_writer11" target="_blank"><img src="assets/img/twitter.png" alt=""></a></div>
+        </div>
+      </div>
+    </section>
+  </main>
+  <script src="https://unpkg.com/typed.js@2.1.0/dist/typed.umd.js"></script>
+  <script src="./script/script.js"></script>
 </body>
+
 </html>
